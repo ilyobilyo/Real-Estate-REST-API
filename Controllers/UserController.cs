@@ -76,7 +76,7 @@ namespace bgbrokersapi.Controllers
         [HttpGet]
         public IActionResult TestAuth()
         {
-            return Ok("Vutre sme bace!");
+            return Ok("You are authenticated");
         }
     }
 }
